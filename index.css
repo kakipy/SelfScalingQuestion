@@ -1,0 +1,30 @@
+body{
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    color:white;
+    background-color: #6091d3;
+}
+.description{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px white;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+
+.q{
+    font-size: 50px;
+}
+select{
+    width: 50px;
+    height: 50px;
+
+}
+input{
+    width: 50px;
+    height: 50px;
+    color:white;
+    background-color: #6091d3;
+
+}

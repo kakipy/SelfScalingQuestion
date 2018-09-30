@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>ScalingQuestion</title>
+</head>
+<body>
+    <h1>SelfScalingQuestion</h1>
+    <div class="description">
+        <h2>ScalingQuestionとは</h2>
+        <p>スケーリング・クエスチョンとは、心理療法で使われるテクニックの一つ。<br>
+            クライアントに今の自分状態を数値で表現してもらうことで、改善の緒を見つけるための技法です。<br>
+            例えば、「最悪の時を1、最高の時を10とすれば、今のあなたはどれくらいですか？」などが、これに当たります。<br>
+            スケーリングクエスチョンをすることで、冷静に今の自分の状態を観察できます。<br>
+            冷静に観察することで、状況改善の緒がつかめるかもしれません。<br>
+            よかったら、あなたもちょっとやっていきませんか？
+        </p>
+    </div>
+    <div class="q">
+        <form action="">
+            今の気分を「１０点満点」で評価すると…
+            <select id="score">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+            </select>
+            点
+            <input type="button" value="✓" id="reaction"> 
+         </form>
+    </div>
+    <div id="resultArea"></div>
+    <div id="TweetArea">
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>    
+    </div>
+    <script src="scalingquestion.js"></script>
+</body>
+</html>
